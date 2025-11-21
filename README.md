@@ -41,8 +41,11 @@ Bu işlemler preprocess_images() fonksiyonu ile gerçekleştirilmiştir.
 | Çıkış  | Dense           | Softmax    | 10    |
 
 Optimizer: Adam
+
 Loss: Sparse Categorical Crossentropy
+
 Epoch: 50
+
 Batch Size: 32
 
 
