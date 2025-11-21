@@ -17,10 +17,15 @@ Bu rakamları ANN ile doğru bir şekilde tanımak / sınıflandırmak ✔️
 
 🧠 Uygulanan Görüntü İşleme Adımları
 Her görüntüye aşağıdaki işlemler uygulanır:
+
 1️⃣ Histogram Eşitleme → Kontrast geliştirme
+
 2️⃣ Gaussian Blur → Gürültü azaltma
+
 3️⃣ Canny Edge Detection → Kenar belirleme
+
 4️⃣ Flatten → 28×28 → 784 boyutuna indirgeme
+
 5️⃣ Normalize (0–255 → 0–1)
 
 Bu işlemler preprocess_images() fonksiyonu ile gerçekleştirilmiştir.
