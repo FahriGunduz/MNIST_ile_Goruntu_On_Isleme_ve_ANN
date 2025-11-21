@@ -12,6 +12,7 @@ Model eğitimi öncesinde görüntü işleme teknikleri uygulanarak özellik ç�
 | Eğitim Verisi | 60,000             |
 | Test Verisi   | 10,000             |
 
+
 Amaç:
 Bu rakamları ANN ile doğru bir şekilde tanımak / sınıflandırmak ✔️
 
@@ -28,7 +29,9 @@ Her görüntüye aşağıdaki işlemler uygulanır:
 
 5️⃣ Normalize (0–255 → 0–1)
 
+
 Bu işlemler preprocess_images() fonksiyonu ile gerçekleştirilmiştir.
+
 
 🏗️ Yapay Sinir Ağı Mimarisi
 | Katman | Tür             | Aktivasyon | Nöron |
@@ -42,14 +45,20 @@ Loss: Sparse Categorical Crossentropy
 Epoch: 50
 Batch Size: 32
 
+
 📈 Eğitim Sonuçları
 🔹 Eğitim & doğrulama başarı grafikleri matplotlib ile gösterilmektedir.
 
 📦 Kullanılan Kütüphaneler
+
 TensorFlow / Keras
+
 NumPy
+
 Matplotlib
+
 OpenCV (cv2)
+
 
 ▶️ Nasıl Çalıştırılır?
 pip install tensorflow opencv-python matplotlib numpy
