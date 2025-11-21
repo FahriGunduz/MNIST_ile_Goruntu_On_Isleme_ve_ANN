@@ -55,6 +55,7 @@ Batch Size: 32
 
 🔹 Eğitim & doğrulama başarı grafikleri matplotlib ile gösterilmektedir.
 
+
 📦 Kullanılan Kütüphaneler
 
 TensorFlow / Keras
