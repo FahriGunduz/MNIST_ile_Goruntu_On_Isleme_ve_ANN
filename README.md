@@ -16,6 +16,7 @@ Model eğitimi öncesinde görüntü işleme teknikleri uygulanarak özellik ç�
 Amaç:
 Bu rakamları ANN ile doğru bir şekilde tanımak / sınıflandırmak ✔️
 
+
 🧠 Uygulanan Görüntü İşleme Adımları
 Her görüntüye aşağıdaki işlemler uygulanır:
 
@@ -49,6 +50,7 @@ Epoch: 50
 Batch Size: 32
 
 
+
 📈 Eğitim Sonuçları
 
 🔹 Eğitim & doğrulama başarı grafikleri matplotlib ile gösterilmektedir.
@@ -62,6 +64,7 @@ NumPy
 Matplotlib
 
 OpenCV (cv2)
+
 
 
 ▶️ Nasıl Çalıştırılır?
