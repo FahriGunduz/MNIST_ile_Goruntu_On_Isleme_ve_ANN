@@ -47,6 +47,7 @@ Batch Size: 32
 
 
 📈 Eğitim Sonuçları
+
 🔹 Eğitim & doğrulama başarı grafikleri matplotlib ile gösterilmektedir.
 
 📦 Kullanılan Kütüphaneler
@@ -61,5 +62,7 @@ OpenCV (cv2)
 
 
 ▶️ Nasıl Çalıştırılır?
+
 pip install tensorflow opencv-python matplotlib numpy
+
 python mnist_ann.py
